@@ -292,7 +292,7 @@ namespace Baracuda.Monitoring.Systems
                 _content.text = displayString;
 
                 var textRect = new Rect();
-                var textDimensions = ctx.Style.CalcSize(_content);
+                var textDimensions = ctx.Style.CalcSize(_content) + Vector2.right;
 
                 var elementRect = ElementRect(ref textRect, textDimensions, xPos, yPos);
 
@@ -349,7 +349,7 @@ namespace Baracuda.Monitoring.Systems
                 _content.text = displayString;
 
                 var textRect = new Rect();
-                var textDimensions = ctx.Style.CalcSize(_content);
+                var textDimensions = ctx.Style.CalcSize(_content) + Vector2.right;
 
                 var elementRect = ElementRect(ref textRect, textDimensions, xPos, yPos);
 
@@ -424,7 +424,7 @@ namespace Baracuda.Monitoring.Systems
                 _content.text = displayString;
 
                 var textRect = new Rect();
-                var textDimensions = ctx.Style.CalcSize(_content);
+                var textDimensions = ctx.Style.CalcSize(_content) + Vector2.right;
 
                 var elementRect = ElementRect(ref textRect, textDimensions, xPos, yPos);
 
@@ -482,7 +482,7 @@ namespace Baracuda.Monitoring.Systems
                 _content.text = displayString;
 
                 var textRect = new Rect();
-                var textDimensions = ctx.Style.CalcSize(_content);
+                var textDimensions = ctx.Style.CalcSize(_content) + Vector2.right;
 
                 var elementRect = ElementRect(ref textRect, textDimensions, xPos, yPos);
 
